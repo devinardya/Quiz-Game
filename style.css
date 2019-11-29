@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+p, li, label, span, button, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+header{
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 50px;
+    color: rgb(128, 97, 57);
+}
+
+section, .selector{
+    width: 80%;
+    height:80%;
+    background: rgb(7,112,135);
+    background: linear-gradient(138deg, rgba(7,112,135,1) 0%, rgba(0,23,130,1) 100%);
+    text-align: center;
+    display: none;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 1px 2px 20px 5px rgba(0,0,0,0.21);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.selector{
+    display: flex;
+    overflow: hidden;
+    flex-flow: column wrap;
+}
+
+section h3, .selector h3{
+    padding-top : 30px;
+    font-size: 40px;
+    color: burlywood;
+    position: relative;
+    z-index: 999;
+}
+
+.selector h3{
+    padding-top: 0px;
+    
+}
+
+.question-block{
+    padding: 30px 40px 20px 0px;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    width: calc(70% - 30px);
+}
+
+.info-block{
+    width: calc(30% - 20px);
+    align-self: center;
+}
+
+.selector p{
+    color: #fff;
+    padding: 40px 0px;
+    line-height: 27px;
+    width: 53%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+    font-size: 20px;
+}
+
+hr{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.option{
+    width: calc(90% - 20px);
+    height: auto;
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.one{
+    width: calc(50% - 30px);
+    height: 100%;
+    margin: 0 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.one h4{
+    color: burlywood;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+}
+
+.one a{
+    padding: 10px 10px;
+    margin: 5px;
+    color: #fff;
+    width: calc(50% - 40px);
+    background: rgb(43, 128, 161);
+    position: relative;
+    z-index: 999;
+    border-radius: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.a-span{
+    width: 90%;
+  
+}
+
+
+.one.category a, .one.level a{
+    display: flex;
+}
+
+.one a.active{
+    background-color: rgb(241, 165, 0);
+    color: #fff;
+}
+
+.one a:hover{
+    background-color: rgb(241, 165, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+.startBtn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    align-self: center;
+    margin-top: 50px;
+    font-size: 14px;
+    background-color: rgb(241, 165, 0);
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+
+.startBtn:hover{
+    background-color: rgb(223, 119, 0);
+    cursor: pointer;
+    color: #fff;
+}
+
+.bg-circle{
+    height: 900px;
+    width: 900px;
+    background: linear-gradient(209deg, rgba(0,231,228,1) 0%, rgba(0,24,130,1) 100%);
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 1;
+    left: -20%;
+    overflow: hidden;
+}
+
+.bg-circle.two{
+    left: 15%;
+    bottom: -15%;
+    height: 400px;
+    width: 400px;
+    background: rgb(231,0,90);
+    background: linear-gradient(131deg, rgba(0,231,228,1) 0%, rgba(0,24,130,1) 100%);
+    opacity: 0.2;
+}
+
+
+
+.question-block p{
+    color: rgb(255, 246, 234);
+    position: relative;
+    z-index: 999;
+    line-height: 27px;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.game-info{
+    color: burlywood;
+    margin-top: 10px;
+    font-size: 15px;
+    position: relative;
+    z-index: 999;
+    padding: 0 30px;
+    line-height: 20px;
+}
+
+.game-info1, .game-info2{
+    color:rgb(255, 250, 240);
+    font-weight: bold;
+}
+
+.question-block button{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(35, 148, 201);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    z-index: 999;
+    margin-left: 10px;
+}
+
+.question-block button.reset{
+    background-color: rgb(190, 190, 190);
+}
+
+.question-block button.reset:hover{
+    background-color: rgb(143, 143, 143);
+    color: #fff;
+}
+
+.question-block button:hover{
+    background-color: rgb(238, 172, 31);
+    cursor: pointer;
+    color: #fff;
+}
+
+.question-block ul{
+    padding-top: 40px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+
+
+.question-block li{
+    text-align: left;
+    line-height: 26px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px 20px 10px 50px;
+    color: rgb(128, 97, 57);
+    position: relative;
+    z-index: 999;
+}
+
+.question-block li.active{
+    background-color: rgb(255, 207, 117);
+}  
+
+.question-block li:hover{
+    background-color: rgb(255, 207, 117);
+    cursor: pointer;
+}
+
+.material-icons{
+    position: absolute;
+    vertical-align: middle;
+}
+
+.material-icons.radio{
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    color:  rgb(128, 97, 57);
+    font-size: 25px;
+}
+
+.material-icons.check{
+    top: 5px;
+    right: -45px;
+    color:  rgb(252, 151, 56);
+    font-size: 40px;
+}
+
+.counter{
+    color: #fff;
+    display: none;
+    margin-top: 0px;
+}
+
+.question-block p.score-num{
+    font-size: 100px;
+    padding: 40px;
+    border: 2px dashed burlywood;
+    border-radius: 100%;
+    height: 117px;
+    width: 117px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 117px; 
+    margin: auto;
+    color: rgb(255, 207, 117);
+    animation-name: thescore;
+    animation-duration: 0.5s;
+}
+
+@keyframes thescore {
+    from {
+        font-size: 0px;
+    }
+    to {
+        font-size: 100px;
+    }
+  }
+
+
+.question-block p.score-text{
+    margin-top: 10px;
+    color: burlywood;
+}
+
+

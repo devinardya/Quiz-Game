@@ -1,0 +1,277 @@
+@media only screen and (max-width: 900px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    section, .selector{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .option{
+        width: calc(90% - 20px);
+        height: auto;
+        align-self: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .bg-circle{
+        height: 100%;
+        width: 125%;
+        left: -30%;
+    }
+
+    .bg-circle.two{
+        left: 35%;
+        bottom: -30%;
+        height: 70%;
+        width: 95%;
+       
+    }
+
+    .question-block ul{
+        padding-top: 0px;
+        width: 80%;
+    }
+
+    .question-block p{
+        margin-bottom: 20px;
+    }
+
+    .question-block button.reset{
+        order: 2;
+        align-self: center;
+        margin-top: 10px
+    }
+
+    .question-block button.nextBtn{
+        order: 1;
+        align-self: center;
+        margin-top: 30px
+    }
+
+    .question-block.endButton{
+        align-self: center;
+    }
+
+    .question-block button{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .question-block{
+        padding: 30px 40px 20px 40px;
+        width: 80%;
+        display: flex;
+    }
+
+    .info-block{
+        width: 90%;
+    }
+
+    .one.category, .one.level{
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .one.level a{
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; 
+    }
+
+    .one.category a{
+        width: calc(100% - 20px);
+        margin: 5px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; 
+    }
+
+    .one.category a:nth-child(3){
+        line-height: 40px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .one.level a{
+        width: calc(100% - 20px);
+        margin: 5px;
+    }
+
+    .endButton{
+        margin-top: 30px;
+        align-self: center;
+        margin-left: 0px;
+    }
+
+    .question-block p.score-num{
+        width: 106px;
+        height: 106px;
+        line-height: 106px;
+    }
+
+    .startBtn{
+        margin-top: 20px;
+    }
+
+    hr{
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+
+    .selector h3{
+        padding-top: 0px;
+    }
+
+    section h3{
+        padding: 0px 40px 20px 40px;
+
+    }
+
+    .selector p{
+        font-size: 15px;
+        width: 80%;
+        line-height: 20px;
+    }
+
+    .option{
+        width: calc(100% - 20px);
+        height: 40%;
+    }
+
+    hr{
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .one{
+        width: auto;
+        height: auto;
+        margin: 0 15px 25px 15px;
+    }
+    
+    .startBtn{
+        margin-top: 40px;
+        height: 50px;
+    }
+
+    .question-block p{
+        font-size: 17px;
+    }
+
+    .question-block ul{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .bg-circle.two{
+        width: 130%;
+       
+    }
+
+    .bg-circle{
+        width: 150%;
+        left: -80%;
+    }
+
+    .endButton{
+        margin-top: 30px;
+        align-self: center;
+    }
+
+    .one.category a{
+        width: calc(40% - 20px);
+        margin: 5px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; 
+    }
+
+    .one.category a:nth-child(3){
+        line-height: 20px;
+    }
+
+    .one.level a{
+        width: calc(29% - 20px);
+        margin: 5px;
+    }
+    .question-block p.score-num{
+        width: 106px;
+        height: 106px;
+        line-height: 106px;
+    }
+
+
+}
+
+@media only screen and (max-height: 700px ){
+
+    body{
+        width: 100vw;
+        height: auto;
+    }
+
+    section{
+        height: 100vh;
+    }
+
+    .option{
+        height: 20%;
+    }
+
+    .selector h3{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    section h3{
+        padding-top: 50px;
+    }
+
+    .counter{
+        margin-bottom: 50px;
+    }
+
+    .question-block p{
+        margin-bottom: 20px;
+    }
+
+    .question-block ul{
+        padding-top: 20px;
+    }
+
+    .game-info{
+        margin-top: 0;
+    }
+
+
+    .bg-circle.two{
+        width: 120%;
+       
+    }
+
+    .endButton{
+        margin-bottom: 300px;
+    }
+
+    .startBtn{
+        margin-bottom: 55px;
+        margin-top: 20px;
+    }
+ 
+}
