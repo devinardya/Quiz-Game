@@ -127,6 +127,12 @@
         margin-top: -20px;
     }
 
+    .counter{
+        margin-top: 30px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
 }
 
 
@@ -245,6 +251,7 @@
 
     .counter{
         margin-bottom: 50px;
+        left: 50%;
     }
 
     .question-block p{

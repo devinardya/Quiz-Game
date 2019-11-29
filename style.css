@@ -304,6 +304,9 @@ hr{
     color: #fff;
     display: none;
     margin-top: 0px;
+    position: absolute;
+    top: 87%;
+    left: 61.7%;
 }
 
 .question-block p.score-num{
