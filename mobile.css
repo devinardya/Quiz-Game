@@ -1,7 +1,7 @@
 @media only screen and (max-width: 900px){
     body{
         width: 100vw;
-        height: 100vh;
+        min-height: 750px;
     }
     section, .selector{
         width: 100%;
@@ -128,7 +128,7 @@
     }
 
     .counter{
-        margin-top: 30px;
+        top: 95%;
         left: 50%;
         transform: translate(-50%);
     }
@@ -233,7 +233,7 @@
     }
 
     section{
-        height: 100vh;
+        height: auto;
     }
 
     .option{
@@ -250,8 +250,9 @@
     }
 
     .counter{
-        margin-bottom: 50px;
+        top: 92%;
         left: 50%;
+        margin-bottom: 60px;
     }
 
     .question-block p{
@@ -280,5 +281,13 @@
         margin-bottom: 55px;
         margin-top: 20px;
     }
+
+    .info-block{
+       flex-flow: unset;
+    }
  
+
+    .question-block{
+        margin-bottom: 50px;
+    }
 }
