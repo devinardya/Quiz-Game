@@ -104,6 +104,9 @@ function getInfo() { //getting all the data from API
             }*/
             return dataInfo;
         })
+        .catch( () => {
+            alert("Server is not available! Try again in a few moment.")
+        })
 }
 
 // render the data from API
